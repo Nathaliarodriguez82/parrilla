@@ -1,0 +1,19 @@
+@import "./vars";
+.titulo{
+    padding: 60px 20px 20px 60px;
+    display: flex;
+    justify-content: left;
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bolder;
+    color: $titulo;
+    &__1{
+        padding: 1px 30px 20px 250px;
+        display: flex;
+        justify-content: left;
+        font-size: 3rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color: $titulo;
+    }
+}

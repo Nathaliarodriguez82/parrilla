@@ -1,0 +1,192 @@
+@import "./vars";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{ 
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin: 10px;
+    width: 100px;
+    max-width: 100%; 
+}
+
+.navbar-light ul li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.35rem;
+    text-decoration: underline;
+}
+
+.descripcion{
+    background-image: url(https://www.gotrendy.com.mx/wp-content/uploads/2019/11/Festival-Parrilla-y-Vino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.horarios{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banderas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 40px 20px;
+}
+
+.bandera{
+    width: 150px;
+    margin: 20px;
+}
+
+.carousel-inner img{
+    padding: 10px 40px 10px 40px;;
+    height: 65vh;
+    min-height: 600px;
+}
+
+.separador{
+    background-color:$color;
+    height: 1px !important;
+    opacity: 0.80 !important;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    padding: 40px;
+}
+
+.mapa{
+    padding: 30px;
+}
+
+.historia__padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.historia__img{
+    max-width: 100%;
+    height: 500px;
+    width: 600px;
+}
+
+.historia{
+    padding: 60px 20px 60px 40px;
+    text-align: center;
+}
+
+.historia__titulo{
+    padding: 20px;
+    background-color: rgb(180,123,38);
+    background: -moz-linear-gradient(90deg, rgba(180,123,38,1) 0%, rgba(158,100,18,1) 33%, rgba(225,118,12,1) 64%);
+    background: -webkit-linear-gradient(90deg, rgba(180,123,38,1) 0%, rgba(158,100,18,1) 33%, rgba(225,118,12,1) 64%);
+    background: linear-gradient(90deg, rgba(180,123,38,1) 0%, rgba(158,100,18,1) 33%, rgba(225,118,12,1) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b47b26",endColorstr="#e1760c",GradientType=1);
+}
+
+.historia__parrafo{
+    padding: 20px;
+}
+
+.historia__padre1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 20px 20px;
+    overflow: hidden;
+}
+
+.historia1{
+    text-align: center;
+}
+
+.historia__parrafo{
+    padding: 20px 50px 20px 20px;
+}
+
+.nuestracarta{
+    background-image: url(https://www.gotrendy.com.mx/wp-content/uploads/2019/11/Festival-Parrilla-y-Vino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.d-grid a button{
+    margin: 150px 50px 50px 70px;   
+}
+
+.formulario{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2px 20px 2px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.60rem;
+    font-weight: bolder;
+}
+
+.mb-3{
+    padding: 2px 20px 2px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.formulario__1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2px 20px 2px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.horarios{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.d-grid button{
+    align-items: center;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.d-grid button{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.d-grid{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+@media screen and (min-width: 940px) and (max-width: 1400px){
+
+    .formulario{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 940px){
+
+    .especialidad__titulo{
+        font-size: 01.50rem;
+        }
+
+    .horario__titulo{
+        font-size: 01.50rem;
+    }
+
+    .bandera{
+        width: 100px;
+    }
+
+    .carousel-inner{
+        max-width: 100%;
+    }
+
+    .historia__padre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia__img{
+        width: 350px;
+        height: 300px;
+    }
+
+    .historia__titulo{
+        font-size: 1rem;
+    }
+
+    .formulario{
+        font-size: 01.50rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .especialidad__titulo{
+        font-size: 0.80rem;
+    }
+
+    .bandera{
+        width: 20%;
+    }
+
+    .horario__titulo{
+        font-size: 1rem;
+    }
+
+    .horario__1{
+        font-size: 0.80rem;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia__padre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia__img{
+        width: 280px;
+        height: 250px;
+    }
+
+    .historia__titulo{
+        font-size: 1rem;
+    }
+
+    .historia__parrafo{
+        font-size: 0.80rem;
+    }
+
+    .formulario{
+        font-size: 1rem;
+    }
+
+    .mb-3{
+        font-size: 0.80rem;
+    }
+
+    .carousel-inner img{
+        min-height: 0px;
+        padding: 0px;
+    }
+}

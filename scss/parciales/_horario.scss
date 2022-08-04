@@ -1,0 +1,13 @@
+@import "./vars";
+.horario__titulo{
+    padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: $color;
+    text-decoration: underline;
+    &__1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25rem;
+        color:darkgray;
+    }
+}

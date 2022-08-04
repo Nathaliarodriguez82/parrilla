@@ -1,0 +1,11 @@
+@import "./vars";
+.especialidad{
+    padding: 60px 20px 5px 20px;
+    &__titulo{
+        justify-content: center;
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        color: $color;
+    }
+}

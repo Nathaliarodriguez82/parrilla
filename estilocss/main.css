@@ -1,0 +1,263 @@
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center; }
+  .menu1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem;
+    position: relative; }
+
+.titulo {
+  padding: 60px 20px 20px 60px;
+  display: flex;
+  justify-content: left;
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: lightgoldenrodyellow; }
+  .titulo__1 {
+    padding: 1px 30px 20px 250px;
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: lightgoldenrodyellow; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.nav {
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: space-between; }
+
+.header__logo {
+  margin: 10px;
+  width: 100px;
+  max-width: 100%; }
+
+.navbar-light ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.35rem;
+  text-decoration: underline; }
+
+.descripcion {
+  background-image: url(https://es-mexico.com.mx/wp-content/uploads/2020/07/los-mejores-vinos-para-carne-cual-es-el-adecuado-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+  overflow: hidden;
+  max-width: 100%; }
+
+.horarios {
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.banderas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px 40px 20px; }
+
+.bandera {
+  width: 150px;
+  margin: 20px; }
+
+.carousel-inner img {
+  padding: 10px 40px 10px 40px;
+  height: 65vh;
+  min-height: 600px; }
+
+.separador {
+  background-color: black;
+  height: 1px !important;
+  opacity: 0.80 !important; }
+
+.footer {
+  line-height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px; }
+
+.mapa {
+  padding: 30px; }
+
+.historia__padre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden; }
+
+.historia__img {
+  max-width: 100%;
+  height: 500px;
+  width: 600px; }
+
+.historia {
+  padding: 60px 20px 60px 40px;
+  text-align: center; }
+
+.historia__titulo {
+  padding: 20px;
+  background-color: #b47b26;
+  background: -moz-linear-gradient(90deg, #b47b26 0%, #9e6412 33%, #e1760c 64%);
+  background: -webkit-linear-gradient(90deg, #b47b26 0%, #9e6412 33%, #e1760c 64%);
+  background: linear-gradient(90deg, #b47b26 0%, #9e6412 33%, #e1760c 64%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b47b26",endColorstr="#e1760c",GradientType=1); }
+
+.historia__parrafo {
+  padding: 20px; }
+
+.historia__padre1 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px 20px 20px;
+  overflow: hidden; }
+
+.historia1 {
+  text-align: center; }
+
+.historia__parrafo {
+  padding: 20px 50px 20px 20px; }
+
+.nuestracarta {
+  background-image: url(https://es-mexico.com.mx/wp-content/uploads/2020/07/los-mejores-vinos-para-carne-cual-es-el-adecuado-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+  overflow: hidden;
+  max-width: 100%; }
+
+.d-grid a button {
+  margin: 150px 50px 50px 70px; }
+
+.formulario {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2px 20px 2px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.60rem;
+  font-weight: bolder; }
+
+.mb-3 {
+  padding: 2px 20px 2px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: bolder; }
+
+.formulario__1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2px 20px 2px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: bolder; }
+
+.horarios {
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder; }
+
+.d-grid button {
+  align-items: center;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder; }
+
+.d-grid button {
+  align-items: center;
+  justify-content: center; }
+
+.d-grid {
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.horario__titulo {
+  padding: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  color: black;
+  text-decoration: underline; }
+  .horario__titulo__1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    color: darkgray; }
+
+.especialidad {
+  padding: 60px 20px 5px 20px; }
+  .especialidad__titulo {
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: black; }
+
+@media screen and (min-width: 940px) and (max-width: 1400px) {
+  .formulario {
+    font-size: 2rem; } }
+
+@media screen and (min-width: 768px) and (max-width: 940px) {
+  .especialidad__titulo {
+    font-size: 01.50rem; }
+  .horario__titulo {
+    font-size: 01.50rem; }
+  .bandera {
+    width: 100px; }
+  .carousel-inner {
+    max-width: 100%; }
+  .historia__padre {
+    display: flex;
+    flex-direction: column; }
+  .historia__img {
+    width: 350px;
+    height: 300px; }
+  .historia__titulo {
+    font-size: 1rem; }
+  .formulario {
+    font-size: 01.50rem; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .especialidad__titulo {
+    font-size: 0.80rem; }
+  .bandera {
+    width: 20%; }
+  .horario__titulo {
+    font-size: 1rem; }
+  .horario__1 {
+    font-size: 0.80rem; }
+  .footer {
+    display: flex;
+    flex-direction: column; }
+  .historia__padre {
+    display: flex;
+    flex-direction: column; }
+  .historia__img {
+    width: 280px;
+    height: 250px; }
+  .historia__titulo {
+    font-size: 1rem; }
+  .historia__parrafo {
+    font-size: 0.80rem; }
+  .formulario {
+    font-size: 1rem; }
+  .mb-3 {
+    font-size: 0.80rem; }
+  .carousel-inner img {
+    min-height: 0px;
+    padding: 0px; } }
